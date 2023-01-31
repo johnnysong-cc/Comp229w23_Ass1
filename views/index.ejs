@@ -1,0 +1,43 @@
+<!-- index.ejs
+Student name: Johnny Z. Song
+Student id: 301167073
+January 30, 2023
+-->
+<%- include('partials/htmlhead') %>
+</head>
+
+<body>
+  <%- include('partials/preloader') %>
+  <%- include('partials/header') %>
+
+  <!-- Main wrap -->
+  <div class="main-wrap">
+
+    <!-- Main -->
+    <main id="main" class="main">
+
+    <!-- Section Home -->
+    <%- include('home') -%>
+
+    <!-- Section Manifesto -->
+    <%- include('manifesto') -%>
+    <!-- Section About -->
+
+    <%- include('about') -%>
+  
+    <!-- Section Project -->
+    <%- include('projects') -%>
+    
+    <!-- Section Services -->
+    <%- include('services') -%>
+       
+    <!-- Section Contact -->
+    <%- include('contact') -%>
+    </main>
+    
+    <!-- Footer -->
+    <%- include('partials/footer') %>
+  </div><!-- /.main wrap -->
+    
+  <%- include('partials/scripts') %>
+</body>

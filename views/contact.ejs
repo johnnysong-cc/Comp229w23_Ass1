@@ -1,0 +1,61 @@
+<!-- Section Latest Tweets -->
+<section class="latest-tweets">
+  <div class="row column large-10">
+    <div class="twitter-feed"></div><!-- Twitter Feed -->
+  </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="section contact">
+  <div class="row flex flex-bottom">
+    <div class="large-8 columns">
+      <form id="contact-form" class="contact-form" action="/contact" data-abide novalidate>
+        <div class="row">
+          <div class="medium-6 columns">
+            <div class="form-group">
+              <input class="form-control" name="name" id="name" type="text" placeholder="Input your full name" autocomplete="off" required />
+              <span class="form-error">It's required.</span>
+            </div>
+          </div>
+          <div class="medium-6 columns">
+            <div class="form-group">
+              <input class="form-control" name="email" id="email" type="email" placeholder="Input your email" autocomplete="off" required />
+              <span class="form-error">It's required.</span>
+            </div>
+          </div>
+          <div class="medium-12 columns">
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" name="contact" class="button small expanded">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="large-4 columns">
+      <address class="address">
+        <dl class="row">
+          <dt class="dt-name medium-3 columns">Address</dt>
+          <dd class="dd-value medium-9 columns">
+            15 Charlemont Crescent,<br />
+            Scarborough, ON M1T1M3
+          </dd>
+          <dt class="dt-name medium-3 columns">Phone</dt>
+          <dd class="dd-value medium-9 columns">
+            <span>(123)456-7890</span>
+          </dd>
+          <dt class="dt-name medium-3 columns">Email</dt>
+          <dd class="dd-value medium-9 columns">
+            <a href="mailto:#">zsong22@my.centennialcollege.ca</a>
+          </dd>
+        </dl>
+      </address>
+    </div>
+    <div class="medium-12 large-10 columns" id="redirected-message">
+      <h2>Redirected message testing: </h2>
+      <p><span>Full name: </span><span id="username"><%= username %></span></p>
+      <p><span>Email: </span><span id="useremail"><%= useremail %></span></p>
+      <p><span>Message: </span><span id="usermessage"><%= usermessage %></span></p>
+    </div>
+  </div>
+</section>
