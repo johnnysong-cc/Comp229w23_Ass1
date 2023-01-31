@@ -1,9 +1,13 @@
 {
   "name": "ass1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
+  },
+  "engines": {
+    "node": "^16.00.0",
+    "npm":"^8.00.0"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
