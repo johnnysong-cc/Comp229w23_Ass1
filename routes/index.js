@@ -53,4 +53,10 @@ router.post('/contact', function (req, res, next) {
   res.redirect('/');
 });
 
+/* Contact List*/
+router.route("/contactlist")
+      .get((req,res)=>{
+        res.render("contactlist");
+      });
+
 module.exports = router;
