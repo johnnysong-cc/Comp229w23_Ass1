@@ -1,0 +1,88 @@
+<!-- contactlist.ejs
+Student name: Johnny Z. Song
+Student id: 301167073
+February 21, 2023 
+-->
+<%- include('partials/htmlhead') %>
+</head>
+
+<body>
+  <h2 id="contactlist-header">List of Current Customers</h2>
+  <section id="listView">
+    <table id="myTable">
+      <tr>
+        <th id="namefield" onclick="sortTable()">Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Berglunds Snabbkop</td>
+        <td>(451)620-5508</td>
+        <td>bs@outlook.com</td>
+      </tr>
+      <tr>
+        <td>Erling Haaland</td>
+        <td>(558)371-9893</td>
+        <td>eh@outlook.com</td>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>(584)781-3586</td>
+        <td>af@outlook.com</td>
+      </tr>
+      <tr>
+        <td>Koniglich Essen</td>
+        <td>(528)561-5236</td>
+        <td>ke@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>(754)542-6757</td>
+        <td>mar@softbank.co.jp</td>
+      </tr>
+      <tr>
+        <td>Paris specialites</td>
+        <td>(758)644-8674</td>
+        <td>ps@ubi.com</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>(304)473-2379</td>
+        <td>it@londoncity.co.uk</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>(740)697-1423</td>
+        <td>lbw@gmail.ca</td>
+      </tr>
+      <tr>
+        <td>Zealot Prime</td>
+        <td>(572)235-2569</td>
+        <td>zp@gmail.us</td>
+      </tr>
+      <tr>
+        <td>Kylian Mbappe</td>
+        <td>(536)822-9896</td>
+        <td>km@gmail.fr</td>
+      </tr>
+      <tr>
+        <td>GTA Clean</td>
+        <td>(650)674-2164</td>
+        <td>gtac@gmail.ca</td>
+      </tr>
+    </table>
+  </section>
+  <section id="updateView">
+    <form action="/contactlist" method="psot">
+      <label for="nameinput">Name</label>
+      <input type="text" id="nameinput" name="nameinput" placeholder="Input the name you want to update">
+      
+      <button>Update</button>
+      <button>Delete</button>
+      <button>Cancel</button>
+    </form>
+  </section>
+  <%- include('partials/footer') %>
+  <%- include('partials/scripts') %>
+</body>
+</html>

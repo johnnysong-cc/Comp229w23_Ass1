@@ -1,0 +1,20 @@
+#myTable td{
+  text-align: center;
+}
+#myTable th{
+  font-size: 2em;
+  font-weight: 000;
+  padding: 1rem;
+}
+#myTable td{
+  font-size: 1.5em;
+}
+#myTable tr:nth-child(even){
+  background-color: #f2f2f2
+}
+h2#contactlist-header{
+  padding: 2rem;
+}
+th#namefield:hover{
+  cursor: pointer;
+}

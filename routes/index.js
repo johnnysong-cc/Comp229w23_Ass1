@@ -2,12 +2,15 @@
  * Student name: Johnny Z. Song
  * Student id: 301167073
  * January 30, 2023
+ * Feburary 21, 2023
 =================================================== */
 const express = require('express');
 const router = express.Router();
+const authCtrl = require('../controllers/authController');
 const myTitle = "Johnny Z. Song\'s Portfolio Website";
 let name = "", email="", message="";
 
+// #region Index sections
 /* GET root */
 router.get('/', function (req, res, next) {
     res.render('index', {
@@ -50,13 +53,24 @@ router.post('/contact', function (req, res, next) {
   email = req.body.email;
   message = req.body.message;
   console.log(`user name is received as: ${name}\nuser email is received as: ${email}\nuser message is received as: ${message}`);
-  res.redirect('/');
+  res.redirect('/#contact');
 });
+// #endregion
 
 /* Contact List*/
 router.route("/contactlist")
       .get((req,res)=>{
-        res.render("contactlist");
+        if(req.isAuthenticated) res.render("/contactlist");
+        res.render('../views/auth/login');
       });
 
+// #region Authentication
+router.route('/register')
+      .get(authCtrl.displayRegistration)
+      .post(authCtrl.handleRegistration);
+
+router.route('/login')
+      .get(authCtrl.displayLogin)
+      .post(authCtrl.handleLogin);
+// #endregion
 module.exports = router;

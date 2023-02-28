@@ -1906,6 +1906,7 @@ table.hover tr:nth-of-type(even):hover {
 /* Footer
 =================================================== */
 .footer {
+  position: absolute; bottom: 0; width: 100%; left:0;
   background-color: #424242;
   color: #fafafa;
   padding: 3em 0;
@@ -2074,6 +2075,11 @@ textarea {
 }
 label {
   font-size: 0.75rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.54);
+}
+label.auth{
+  font-size: 1.2rem;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.54);
 }

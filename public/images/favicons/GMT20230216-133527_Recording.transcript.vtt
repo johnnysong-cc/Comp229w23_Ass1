@@ -1,0 +1,2350 @@
+WEBVTT
+
+1
+00:00:07.250 --> 00:00:11.380
+Piyush Garg: As I was saying, we learn about styles, themes, and
+
+2
+00:00:11.590 --> 00:00:13.800
+creating customer use.
+
+3
+00:00:13.830 --> 00:00:21.560
+Piyush Garg: I've created a new project, and once the spirits we look at how to work on themes and styles.
+
+4
+00:01:10.310 --> 00:01:11.070
+Piyush Garg: Okay.
+
+5
+00:01:11.880 --> 00:01:18.440
+Piyush Garg: So your device will be running on. Your application would be running on so many multiple devices, and
+
+6
+00:01:18.460 --> 00:01:22.210
+Piyush Garg: each has its own display density, as we all know.
+
+7
+00:01:23.370 --> 00:01:24.060
+Piyush Garg: but
+
+8
+00:01:24.310 --> 00:01:37.200
+Piyush Garg: you also want to use your views across different screens on your app, and this should be consistency, so that your user does not feel very disoriented when he goes from one screen to another. 2 thirds.
+
+9
+00:01:37.460 --> 00:01:48.980
+Piyush Garg: right? So basically styles and themes help you to beautify your app, but also unify the experience that your user gets when you when they are using the application.
+
+10
+00:01:49.020 --> 00:01:59.270
+Piyush Garg: Okay, so what i'm going to do here is create a simple view which has many text views, and then i'll show you how to apply styles on those text to
+
+11
+00:01:59.660 --> 00:02:00.280
+Piyush Garg: okay.
+
+12
+00:02:00.400 --> 00:02:03.510
+Piyush Garg: we're going to create. We have this layout here.
+
+13
+00:02:05.630 --> 00:02:09.740
+Piyush Garg: Transfer text view. Let's move this
+
+14
+00:02:11.410 --> 00:02:13.230
+Piyush Garg: to the top of the screen.
+
+15
+00:02:39.410 --> 00:02:40.510
+Piyush Garg: This.
+
+16
+00:02:51.340 --> 00:02:56.860
+Piyush Garg: So I created 6 text views. Yes, and i'll put them one below the other.
+
+17
+00:03:00.960 --> 00:03:05.430
+Piyush Garg: Let's see, this is first type of reading that we' about
+
+18
+00:04:45.440 --> 00:04:46.280
+Piyush Garg: see you.
+
+19
+00:05:27.460 --> 00:05:32.230
+Piyush Garg: Okay. So I have these 6 text views. And
+
+20
+00:05:32.520 --> 00:05:41.400
+Piyush Garg: basically we heading one heading to all these would be the main headings of your app like wherever you use text views throughout your app.
+
+21
+00:05:41.630 --> 00:05:45.420
+Some headings could be like whatever comes under the.
+
+22
+00:05:45.540 --> 00:05:49.010
+Piyush Garg: and then these would be the body views. Okay.
+
+23
+00:05:49.020 --> 00:05:52.870
+Piyush Garg: So let's give give styling to each of these posts.
+
+24
+00:05:53.060 --> 00:05:56.800
+Piyush Garg: So by styling, I mean X size textile.
+
+25
+00:05:57.250 --> 00:06:00.540
+Piyush Garg: Right? So let me set that up here
+
+26
+00:06:03.560 --> 00:06:05.230
+Piyush Garg: its size.
+
+27
+00:06:07.430 --> 00:06:10.320
+Piyush Garg: So this is heading right, so it will be wake
+
+28
+00:06:14.860 --> 00:06:17.800
+Piyush Garg: and hold like style.
+
+29
+00:06:23.000 --> 00:06:26.890
+Piyush Garg: This is heading of type 2. So this would be
+
+30
+00:06:36.650 --> 00:06:38.060
+Piyush Garg: smaller than that.
+
+31
+00:06:45.710 --> 00:06:47.290
+Piyush Garg: I would still be bored.
+
+32
+00:06:48.800 --> 00:06:49.850
+Piyush Garg: Sorry
+
+33
+00:06:50.930 --> 00:06:51.750
+Piyush Garg: or
+
+34
+00:06:53.350 --> 00:06:56.060
+Piyush Garg: okay. This is sub hitting
+
+35
+00:06:57.520 --> 00:07:01.350
+Piyush Garg: so smaller than trading size. 2, hey?
+
+36
+00:07:05.130 --> 00:07:08.520
+Piyush Garg: So it's 34. I speak
+
+37
+00:07:13.240 --> 00:07:14.440
+Piyush Garg: not, for
+
+38
+00:07:19.640 --> 00:07:21.730
+Piyush Garg: it could be both. No sure
+
+39
+00:07:24.580 --> 00:07:26.690
+Piyush Garg: pitched sites
+
+40
+00:07:28.800 --> 00:07:29.810
+Piyush Garg: good.
+
+41
+00:07:31.830 --> 00:07:34.620
+Piyush Garg: and then body would be 16 sp size.
+
+42
+00:07:52.910 --> 00:07:55.030
+Piyush Garg: But I will make the second body right.
+
+43
+00:07:55.200 --> 00:07:56.630
+Italy.
+
+44
+00:07:57.640 --> 00:07:58.670
+Piyush Garg: Oh, yeah.
+
+45
+00:07:59.570 --> 00:08:00.160
+So
+
+46
+00:08:06.110 --> 00:08:17.500
+Piyush Garg: okay. So these are different types of style that usually exist in a document, right? If you read through a book you will see headings of of different sizes, some headings under them
+
+47
+00:08:17.870 --> 00:08:22.360
+Piyush Garg: right, and then body, some with italics and some regular
+
+48
+00:08:22.450 --> 00:08:23.970
+Piyush Garg: right. So
+
+49
+00:08:24.100 --> 00:08:30.560
+Piyush Garg: I created those styles here. But see, I have to type all the rest multiple times right.
+
+50
+00:08:32.049 --> 00:08:39.080
+Piyush Garg: All these things i'm having these multiple times right? So there should be a way that I can combine it int0 0ne
+
+51
+00:08:39.220 --> 00:08:41.260
+place, and then use that
+
+52
+00:08:41.330 --> 00:08:46.030
+Piyush Garg: reference in the text view instead. Right? So that's exactly what styles to.
+
+53
+00:08:47.210 --> 00:08:49.920
+Piyush Garg: So I create a new xml file here.
+
+54
+00:08:57.370 --> 00:09:02.000
+Piyush Garg: and then we'll give a for each of these
+
+55
+00:09:03.270 --> 00:09:04.420
+Piyush Garg: your style.
+
+56
+00:09:07.630 --> 00:09:10.800
+Piyush Garg: You're being one alright.
+
+57
+00:09:12.940 --> 00:09:13.710
+Piyush Garg: I you.
+
+58
+00:09:16.160 --> 00:09:17.790
+Piyush Garg: So, heading one.
+
+59
+00:09:18.130 --> 00:09:25.120
+Piyush Garg: I can move most of these things out of here. Okay, except for constraints. Let's move everything else out from here.
+
+60
+00:09:25.720 --> 00:09:29.620
+Piyush Garg: the stream text. And Id So Yes.
+
+61
+00:09:42.690 --> 00:09:43.320
+Piyush Garg: right.
+
+62
+00:10:11.900 --> 00:10:15.160
+Piyush Garg: Okay. So we will have to do the same thing for these.
+
+63
+00:10:22.330 --> 00:10:23.180
+Piyush Garg: Okay?
+
+64
+00:11:11.510 --> 00:11:17.880
+Piyush Garg: Okay. So now that I've moved all these things here. I can reference this
+
+65
+00:11:17.900 --> 00:11:19.870
+Piyush Garg: style directly in my
+
+66
+00:11:20.060 --> 00:11:23.400
+Piyush Garg: textbook here. Okay. So it's time.
+
+67
+00:11:26.320 --> 00:11:27.420
+Piyush Garg: I think, starting one.
+
+68
+00:11:28.240 --> 00:11:31.390
+Piyush Garg: So that would result in the exact same. Ui.
+
+69
+00:11:31.630 --> 00:11:32.340
+Piyush Garg: Okay.
+
+70
+00:11:34.020 --> 00:11:36.720
+Piyush Garg: we do the same thing with all the other views.
+
+71
+00:11:38.500 --> 00:11:40.970
+Piyush Garg: so that this file is click. Okay.
+
+72
+00:12:27.000 --> 00:12:31.600
+Piyush Garg: adding 2 is just 28 Sp: Everything else is same.
+
+73
+00:12:33.030 --> 00:12:35.200
+Piyush Garg: heading, one
+
+74
+00:12:35.240 --> 00:12:37.590
+Piyush Garg: submitting one. it's really
+
+75
+00:12:38.780 --> 00:12:40.000
+Piyush Garg: over Sp.
+
+76
+00:12:42.650 --> 00:12:43.950
+Piyush Garg: And not both.
+
+77
+00:12:46.140 --> 00:12:49.800
+Piyush Garg: So I'm. Heading to it's also not old, and for dsp
+
+78
+00:12:52.860 --> 00:12:54.490
+Piyush Garg: body style one
+
+79
+00:12:55.430 --> 00:12:57.200
+Piyush Garg: is it?
+
+80
+00:13:01.860 --> 00:13:02.840
+And
+
+81
+00:13:03.400 --> 00:13:08.450
+Piyush Garg: this one is with 16 at the speed
+
+82
+00:13:10.610 --> 00:13:11.480
+Piyush Garg: great.
+
+83
+00:13:12.370 --> 00:13:16.940
+Piyush Garg: So let's use all these teams in our layout.
+
+84
+00:13:18.110 --> 00:13:18.860
+Piyush Garg: So
+
+85
+00:13:28.050 --> 00:13:29.050
+Piyush Garg: right?
+
+86
+00:13:37.180 --> 00:13:37.770
+Okay.
+
+87
+00:14:27.430 --> 00:14:28.180
+Piyush Garg: right.
+
+88
+00:14:29.390 --> 00:14:33.950
+Piyush Garg: So now this file is very clean and does not have repetitive data.
+
+89
+00:14:34.780 --> 00:14:37.090
+Piyush Garg: And all those styles are here.
+
+90
+00:14:37.390 --> 00:14:41.510
+Piyush Garg: Okay. So if I change anything in one of these parameters
+
+91
+00:14:41.710 --> 00:14:44.300
+Piyush Garg: it will change here as Well, okay.
+
+92
+00:14:44.780 --> 00:14:48.980
+Piyush Garg: but wait. Now I have repetitive stuff. Here
+
+93
+00:14:49.180 --> 00:14:52.730
+Piyush Garg: I am. Do something so that things Don't repeat.
+
+94
+00:14:52.930 --> 00:14:57.660
+Piyush Garg: Here. Let's try that. Okay. So
+
+95
+00:14:58.400 --> 00:15:01.970
+Piyush Garg: things that are repeating. In all the places here are
+
+96
+00:15:02.090 --> 00:15:07.070
+Piyush Garg: layout height. Lay out with and lay out margin, which is same for everything
+
+97
+00:15:07.110 --> 00:15:11.960
+Piyush Garg: right. So in this case I can create a base style.
+
+98
+00:15:26.840 --> 00:15:28.300
+Piyush Garg: It's the
+
+99
+00:15:29.450 --> 00:15:31.780
+Piyush Garg: which will have this
+
+100
+00:15:40.500 --> 00:15:41.080
+Piyush Garg: it.
+
+101
+00:15:41.250 --> 00:15:44.670
+Piyush Garg: And then I can inherit this based style.
+
+102
+00:15:44.680 --> 00:15:47.890
+Piyush Garg: So all these heading styles all right.
+
+103
+00:15:48.540 --> 00:15:52.050
+Piyush Garg: So you can inherit an xml component int0 0ne another.
+
+104
+00:15:52.100 --> 00:15:53.800
+Piyush Garg: So we can do Parent.
+
+105
+00:15:57.480 --> 00:16:02.730
+Piyush Garg: please. Thank you. Okay. And let's do that for all these.
+
+106
+00:16:49.500 --> 00:16:50.290
+Piyush Garg: Okay.
+
+107
+00:16:52.680 --> 00:16:58.510
+Piyush Garg: so that cleans up this file as well, with very less repetitive content here as well.
+
+108
+00:16:58.590 --> 00:17:07.839
+Piyush Garg: Right so now, if you go and take a look at your Ui, it will remain the exact same. But we are now using styling instead of
+
+109
+00:17:09.589 --> 00:17:13.690
+Piyush Garg: adding all that information at each of these views. Okay.
+
+110
+00:17:13.980 --> 00:17:18.260
+Piyush Garg: And if I want to change, say there's spacing between these.
+
+111
+00:17:19.099 --> 00:17:22.589
+Piyush Garg: Then all I have to do is change it at this one location.
+
+112
+00:17:23.339 --> 00:17:26.690
+Piyush Garg: and every thing will be updated in the blue.
+
+113
+00:17:26.970 --> 00:17:27.720
+Piyush Garg: Okay.
+
+114
+00:17:30.240 --> 00:17:35.650
+Piyush Garg: so that saves like it makes it makes the code maintainable. All right.
+
+115
+00:17:35.990 --> 00:17:36.590
+yeah.
+
+116
+00:17:38.750 --> 00:17:41.330
+Piyush Garg: let's go back. And
+
+117
+00:17:44.230 --> 00:17:49.880
+Piyush Garg: between these there is still repetitive content of big state.
+
+118
+00:17:49.900 --> 00:17:51.440
+Piyush Garg: right. So like
+
+119
+00:17:52.740 --> 00:17:55.060
+Piyush Garg: another step here, please
+
+120
+00:17:55.890 --> 00:17:58.100
+Piyush Garg: heading study.
+
+121
+00:17:59.690 --> 00:18:03.720
+Piyush Garg: which will have a parent of this fixed view style.
+
+122
+00:18:04.300 --> 00:18:05.230
+And
+
+123
+00:18:08.720 --> 00:18:09.460
+Piyush Garg: yeah.
+
+124
+00:18:13.750 --> 00:18:20.390
+Piyush Garg: And instead of inheriting the base text, we use time here, we will inherit the base heading step.
+
+125
+00:18:28.350 --> 00:18:29.060
+Piyush Garg: Okay.
+
+126
+00:18:32.430 --> 00:18:40.780
+Piyush Garg: Sub heading has unique parameters. So we cannot do anything here between the body style. We can have
+
+127
+00:18:40.890 --> 00:18:45.460
+Piyush Garg: this as a piece party style instead of body, one style.
+
+128
+00:18:50.740 --> 00:18:57.550
+Piyush Garg: and it's me face and headache based 40 style. Then I don't need exercise here.
+
+129
+00:18:58.490 --> 00:19:01.750
+Piyush Garg: Okay, S0 0 repeting content here.
+
+130
+00:19:01.800 --> 00:19:06.330
+Piyush Garg: and nothing repeating, Here, I, Sam.
+
+131
+00:19:06.520 --> 00:19:10.220
+Piyush Garg: this does not exist. This will Green Face.
+
+132
+00:19:10.520 --> 00:19:11.550
+Piyush Garg: Why do you start you?
+
+133
+00:19:14.350 --> 00:19:15.860
+Piyush Garg: This would be me.
+
+134
+00:19:38.160 --> 00:19:40.100
+Piyush Garg: Hey. you guys follow.
+
+135
+00:19:47.040 --> 00:19:47.820
+Piyush Garg: Hello.
+
+136
+00:19:53.100 --> 00:19:53.860
+Piyush Garg: Okay.
+
+137
+00:19:55.270 --> 00:19:58.350
+Piyush Garg: So this is basically how styles will work. Okay.
+
+138
+00:20:00.210 --> 00:20:02.140
+Piyush Garg: we plan on this application.
+
+139
+00:20:03.180 --> 00:20:03.760
+See?
+
+140
+00:20:07.320 --> 00:20:09.490
+Piyush Garg: It's basically the same. You I make sure.
+
+141
+00:20:09.770 --> 00:20:16.740
+Piyush Garg: but i'm going to create some more layouts, and then we can navigate between the layout so that we can see how things work.
+
+142
+00:22:02.780 --> 00:22:07.450
+Piyush Garg: It's taking a lot of time to load the emulator. Just 2 more minutes. Okay.
+
+143
+00:23:00.500 --> 00:23:01.240
+Piyush Garg: Okay.
+
+144
+00:23:01.790 --> 00:23:07.760
+Piyush Garg: So let's create a few activities and let's navigate between those active things. Okay.
+
+145
+00:23:49.150 --> 00:23:52.500
+Piyush Garg: but we did 2 activities like, let me add a button
+
+146
+00:23:53.100 --> 00:23:56.350
+Piyush Garg: with the secret left of people and the first one.
+
+147
+00:24:15.360 --> 00:24:19.670
+Piyush Garg: so we can use the same theme here as well.
+
+148
+00:24:19.920 --> 00:24:22.390
+Piyush Garg: I'm going to add style
+
+149
+00:24:23.880 --> 00:24:27.570
+Piyush Garg: and use the heading, one side being boosted.
+
+150
+00:24:27.580 --> 00:24:28.150
+I mean
+
+151
+00:24:37.150 --> 00:24:38.220
+Piyush Garg: next.
+
+152
+00:24:50.430 --> 00:24:51.020
+Jason Tse: Okay.
+
+153
+00:25:09.670 --> 00:25:10.260
+Piyush Garg: Yeah.
+
+154
+00:25:12.690 --> 00:25:16.530
+Piyush Garg: So by using the style, I don't even have to type everything again right?
+
+155
+00:25:17.160 --> 00:25:23.300
+Piyush Garg: That makes developing the application much more quicker. And you have so many views.
+
+156
+00:25:27.780 --> 00:25:28.590
+Piyush Garg: I see
+
+157
+00:25:43.830 --> 00:25:45.030
+Piyush Garg: it's.
+
+158
+00:25:48.010 --> 00:25:48.820
+Yes, but
+
+159
+00:26:25.410 --> 00:26:27.960
+Piyush Garg: okay. I hope
+
+160
+00:26:31.270 --> 00:26:37.990
+Piyush Garg: we activities. I'm. going to write a code real quick to navigate between these 3 activities.
+
+161
+00:28:44.630 --> 00:28:45.240
+Piyush Garg: Yeah.
+
+162
+00:29:57.080 --> 00:29:59.480
+Piyush Garg: And let's create a third activity.
+
+163
+00:30:13.830 --> 00:30:14.960
+Rushelle Phillips: Yeah, legally.
+
+164
+00:30:20.780 --> 00:30:24.390
+Rushelle Phillips: So so Exactly.
+
+165
+00:30:24.440 --> 00:30:25.320
+Piyush Garg: Yes.
+
+166
+00:30:29.490 --> 00:30:30.230
+Piyush Garg: hello.
+
+167
+00:30:40.970 --> 00:30:44.050
+Piyush Garg: Okay. So I have 3 activities. I'm.
+
+168
+00:30:44.750 --> 00:30:45.380
+So
+
+169
+00:30:46.730 --> 00:30:51.110
+Piyush Garg: just going to run this code real quick so that we can see the navigation. Yeah.
+
+170
+00:30:53.560 --> 00:30:56.000
+Piyush Garg: actually, let me add a button here as well
+
+171
+00:30:57.610 --> 00:30:59.820
+Piyush Garg: from where we can go back to the first.
+
+172
+00:33:51.340 --> 00:33:56.920
+Piyush Garg: Okay, so I've created the 3 activities. We'll go from first to second, second to third, and
+
+173
+00:33:57.010 --> 00:33:59.570
+Piyush Garg: then back from third to first activity. Okay.
+
+174
+00:34:57.990 --> 00:35:05.080
+Piyush Garg: So this is the second activity. and this is the third activity. So we go back to the first activity from here.
+
+175
+00:35:05.710 --> 00:35:12.850
+Piyush Garg: What if I want to give different schemes, color schemes, and different look and feel to each of these screen screens.
+
+176
+00:35:12.890 --> 00:35:28.870
+Piyush Garg: Okay, you would either have to go to the layout and give background colors and everything. But there are these bars as well, right? The action bar. There is a status bar. There is this navigation bar. You'll have to give color to all these.
+
+177
+00:35:29.050 --> 00:35:34.280
+Piyush Garg: Okay. and here like for this button I'm: using.
+
+178
+00:35:34.440 --> 00:35:48.060
+Piyush Garg: I'm not giving a default color. So it's taking this as the default, right? So we want to change everything that look of the entire activity. You can do that using teams. Okay, so we have this
+
+179
+00:35:49.540 --> 00:35:56.800
+Piyush Garg: 5 year the Xml 5 teams. You will have to configure your theme here. Okay. So let's add a couple more themes.
+
+180
+00:36:02.400 --> 00:36:03.180
+Piyush Garg: It's perfect.
+
+181
+00:36:17.980 --> 00:36:18.870
+Piyush Garg: Okay?
+
+182
+00:36:38.330 --> 00:36:39.260
+Piyush Garg: Oh, that should.
+
+183
+00:36:43.900 --> 00:36:47.710
+Piyush Garg: And one more we started.
+
+184
+00:37:00.160 --> 00:37:01.060
+Piyush Garg: Let's see.
+
+185
+00:37:03.910 --> 00:37:07.870
+Piyush Garg: Let's define some colors here. so
+
+186
+00:37:22.110 --> 00:37:23.830
+Piyush Garg: about 300.
+
+187
+00:39:26.810 --> 00:39:37.470
+Piyush Garg: So we have these. Sorry about the background. Nice they are, all those
+
+188
+00:39:37.510 --> 00:39:40.130
+I'd like to. It's okay. That text.
+
+189
+00:39:50.110 --> 00:39:50.960
+Piyush Garg: They
+
+190
+00:39:51.020 --> 00:39:51.950
+all the other
+
+191
+00:39:55.440 --> 00:39:56.120
+I see.
+
+192
+00:39:56.650 --> 00:39:57.410
+Piyush Garg: Thanks.
+
+193
+00:39:58.260 --> 00:39:59.280
+500
+
+194
+00:40:21.890 --> 00:40:24.440
+Piyush Garg: right on or in should be okay. So
+
+195
+00:40:24.990 --> 00:40:27.620
+Piyush Garg: the chief. the same.
+
+196
+00:40:42.810 --> 00:40:47.460
+Piyush Garg: We don't need secondary colors because we don't have anything else on that
+
+197
+00:40:50.070 --> 00:41:01.010
+Piyush Garg: on that layout. So basically these secondary colors would help you fill the edit text and show their circulars. And if you have a pointer it will show the pointer color and all those things. Okay.
+
+198
+00:41:01.130 --> 00:41:07.170
+Piyush Garg: So we don't have any other elements. So I won't one with the second regulars just now.
+
+199
+00:41:07.320 --> 00:41:11.300
+Piyush Garg: But we can change the
+
+200
+00:41:11.880 --> 00:41:13.440
+Piyush Garg: let's do
+
+201
+00:41:20.420 --> 00:41:21.740
+Piyush Garg: it. Is
+
+202
+00:41:24.690 --> 00:41:25.580
+Piyush Garg: I remember.
+
+203
+00:41:47.030 --> 00:41:47.700
+Okay.
+
+204
+00:41:49.300 --> 00:41:53.590
+Piyush Garg: i'm going to copy this and change the colors for the 30
+
+205
+00:41:59.070 --> 00:42:00.310
+Piyush Garg: 500
+
+206
+00:42:13.090 --> 00:42:13.680
+Piyush Garg: bye.
+
+207
+00:42:14.740 --> 00:42:15.420
+Piyush Garg: Oh.
+
+208
+00:42:16.470 --> 00:42:19.150
+Piyush Garg: no! This primary agreement
+
+209
+00:42:19.530 --> 00:42:22.280
+Piyush Garg: to take the primary variant from here.
+
+210
+00:42:52.080 --> 00:42:56.320
+Piyush Garg: S0 0nce we have the team. we can go to the manifest file
+
+211
+00:43:00.510 --> 00:43:02.980
+Piyush Garg: and give a theme here. Okay.
+
+212
+00:43:18.290 --> 00:43:21.680
+Piyush Garg: this wasn't already has the correct team. I don't know what to change at this.
+
+213
+00:43:21.780 --> 00:43:22.520
+Piyush Garg: You do.
+
+214
+00:44:01.610 --> 00:44:06.650
+Piyush Garg: So let's run this code now and see what happens. What's the difference?
+
+215
+00:44:06.790 --> 00:44:07.530
+Piyush Garg: Okay.
+
+216
+00:44:34.750 --> 00:44:39.910
+Piyush Garg: Okay. So the first activity is in the original team. I click. Next.
+
+217
+00:44:40.000 --> 00:44:46.070
+The second activity will be in the orange color scheme. Everything changes. I did not change the color of the button.
+
+218
+00:44:46.200 --> 00:44:52.730
+Piyush Garg: but it changed that by default, right? And if I click this again, the third theme would be in yellow color.
+
+219
+00:44:53.540 --> 00:44:59.440
+Piyush Garg: Right? So this is how you give them to your application. Okay.
+
+220
+00:45:04.360 --> 00:45:05.600
+Piyush Garg: Did you guys follow?
+
+221
+00:45:08.970 --> 00:45:09.730
+Yes.
+
+222
+00:45:09.980 --> 00:45:11.320
+Piyush Garg: any questions.
+
+223
+00:45:14.340 --> 00:45:15.350
+Okay?
+
+224
+00:45:15.840 --> 00:45:16.430
+Piyush Garg: Okay.
+
+225
+00:45:23.430 --> 00:45:31.830
+Piyush Garg: So just like you did with your styles. You can also inherit your themes. Okay, right now, we are inheriting the
+
+226
+00:45:32.200 --> 00:45:38.780
+Piyush Garg: original theme that comes with Android. But you can also define a base team and then inherit that.
+
+227
+00:45:39.780 --> 00:45:43.960
+Piyush Garg: Okay? And every team needs to have a variety of things.
+
+228
+00:45:48.720 --> 00:45:49.470
+Piyush Garg: All right.
+
+229
+00:45:49.750 --> 00:45:51.460
+Piyush Garg: So
+
+230
+00:45:54.010 --> 00:46:02.010
+Piyush Garg: okay. if you guys follow styles and theme, we'll go to the next topic. Otherwise, let me know if you guys have any question.
+
+231
+00:46:08.440 --> 00:46:09.130
+Piyush Garg: Hello.
+
+232
+00:46:11.380 --> 00:46:13.850
+Piyush Garg: Okay. So
+
+233
+00:46:13.970 --> 00:46:17.010
+we saw how to customize the
+
+234
+00:46:17.460 --> 00:46:27.660
+Piyush Garg: colors and schemes of your app, right? But you can also customize the views, the text view, edit text and all those things. Okay.
+
+235
+00:46:27.670 --> 00:46:45.640
+Piyush Garg: So i'm going to show you how to do that for that. We'll have to inherit the text, view the layouts and all those. Okay. So let's create a view on this screen itself. We'll create a view which is a text view, but
+
+236
+00:46:45.790 --> 00:46:47.770
+Piyush Garg: it's customized to show.
+
+237
+00:46:47.960 --> 00:46:50.350
+Let's say, cost
+
+238
+00:46:50.980 --> 00:46:51.960
+Piyush Garg: or time.
+
+239
+00:46:53.180 --> 00:46:59.360
+Piyush Garg: Let's keep cost for now, because we'll have to add something for that. Okay, so i'm going to create a new file.
+
+240
+00:46:59.500 --> 00:47:01.670
+Piyush Garg: It is a price
+
+241
+00:47:03.730 --> 00:47:13.410
+Piyush Garg: which will show the cost of the item. and this one in headache and text. Actually, you need to.
+
+242
+00:47:15.970 --> 00:47:20.010
+Piyush Garg: And this needs context that we would set and
+
+243
+00:47:29.450 --> 00:47:30.170
+Piyush Garg: 6
+
+244
+00:47:46.030 --> 00:47:46.740
+right.
+
+245
+00:47:47.780 --> 00:47:49.490
+Piyush Garg: What else did I need?
+
+246
+00:48:15.640 --> 00:48:16.290
+Piyush Garg: Sure.
+
+247
+00:48:19.800 --> 00:48:20.370
+Piyush Garg: Oh.
+
+248
+00:48:23.430 --> 00:48:24.140
+Piyush Garg: yeah.
+
+249
+00:48:24.900 --> 00:48:28.290
+Piyush Garg: at least the constructive.
+
+250
+00:49:05.110 --> 00:49:06.810
+Piyush Garg: Okay. So I
+
+251
+00:49:07.530 --> 00:49:13.540
+Piyush Garg: I need to inherit the app comp text view and then set the parameters for this. Okay.
+
+252
+00:49:13.550 --> 00:49:16.670
+Piyush Garg: So let's say we have. Okay.
+
+253
+00:49:16.740 --> 00:49:18.300
+our tick.
+
+254
+00:49:19.030 --> 00:49:26.340
+Piyush Garg: since we are doing price text view it, it should have a format to show the text in right. So basically.
+
+255
+00:49:26.520 --> 00:49:36.280
+Piyush Garg: if you are showing this cost in us or Canada, you will add the dollar simple in front of your next view, or if you are showing this in.
+
+256
+00:49:36.280 --> 00:49:48.080
+Piyush Garg: I don't know. Uk you'll add a pound signal symbol in front of your text 3. So you can get that from the number format class and
+
+257
+00:49:48.370 --> 00:49:49.840
+Piyush Garg: in and right. So
+
+258
+00:49:50.060 --> 00:49:55.700
+Piyush Garg: it's a Java class, I think. So let's have private.
+
+259
+00:50:02.790 --> 00:50:03.900
+Piyush Garg: Okay.
+
+260
+00:50:13.100 --> 00:50:15.120
+Piyush Garg: number of
+
+261
+00:50:15.760 --> 00:50:24.590
+Piyush Garg: good. How it seems so this is this will get. Does the currency, in instance, for whatever the default local is in your
+
+262
+00:50:24.670 --> 00:50:28.750
+Piyush Garg: if you want the specific local, you can also pass a local view.
+
+263
+00:50:28.780 --> 00:50:38.040
+Piyush Garg: Okay. So this is a number format, and then let's add a few to this, so we'll have a price field here. Then.
+
+264
+00:50:41.090 --> 00:50:42.510
+Piyush Garg: alright.
+
+265
+00:50:42.910 --> 00:50:45.650
+Piyush Garg: that can be a float value. So
+
+266
+00:50:45.860 --> 00:50:47.640
+Piyush Garg: 0 point 0 0. If
+
+267
+00:50:48.990 --> 00:50:53.150
+Piyush Garg: and they can change so right
+
+268
+00:51:12.500 --> 00:51:14.010
+Piyush Garg: right
+
+269
+00:51:17.530 --> 00:51:18.270
+Piyush Garg: it.
+
+270
+00:51:27.540 --> 00:51:28.620
+Piyush Garg: Well, you
+
+271
+00:51:29.800 --> 00:51:30.670
+it is
+
+272
+00:51:34.630 --> 00:51:37.160
+Piyush Garg: Yeah. what I do.
+
+273
+00:51:38.900 --> 00:51:40.900
+Piyush Garg: You have to send some text here.
+
+274
+00:51:41.550 --> 00:51:43.410
+Piyush Garg: Save it next
+
+275
+00:51:43.900 --> 00:51:44.740
+it's.
+
+276
+00:52:14.360 --> 00:52:18.290
+Piyush Garg: Can you guys hear me? Is the background noise too much.
+
+277
+00:52:25.400 --> 00:52:26.460
+You can hear this.
+
+278
+00:52:26.840 --> 00:52:28.130
+Mithul Koshy: Yeah. Okay.
+
+279
+00:52:28.480 --> 00:52:30.420
+Piyush Garg: Okay. So
+
+280
+00:52:31.160 --> 00:52:35.080
+Piyush Garg: yeah, we define a element called price
+
+281
+00:52:35.680 --> 00:52:42.970
+Piyush Garg: which would be set as a text view on on the Ui. but it is of type float.
+
+282
+00:52:43.090 --> 00:52:47.210
+Piyush Garg: Okay. So if I want to use this custom price text view
+
+283
+00:52:47.230 --> 00:52:48.790
+Piyush Garg: in our application.
+
+284
+00:52:48.860 --> 00:52:53.770
+I go to this layout, which is the main layout and add.
+
+285
+00:52:54.480 --> 00:52:58.000
+Piyush Garg: the custom takes to be here now instead of thanks to you.
+
+286
+00:53:06.720 --> 00:53:14.800
+Piyush Garg: Okay, so you can get the price text view instead of text view. because it is the custom layout that we created. Okay.
+
+287
+00:53:15.380 --> 00:53:17.580
+Piyush Garg: we have a bit of.
+
+288
+00:53:19.380 --> 00:53:27.600
+Piyush Garg: We can give it the style as well, so we can use the same style. but it's you style. Oh.
+
+289
+00:53:29.030 --> 00:53:29.750
+Piyush Garg: oh.
+
+290
+00:53:37.710 --> 00:53:38.270
+Piyush Garg: and
+
+291
+00:53:38.300 --> 00:53:38.900
+I would.
+
+292
+00:53:47.350 --> 00:53:48.610
+Piyush Garg: What to
+
+293
+00:54:03.770 --> 00:54:04.760
+Piyush Garg: hey? There.
+
+294
+00:54:34.140 --> 00:54:38.350
+Piyush Garg: Okay. So now, instead of using the default, layout
+
+295
+00:54:39.030 --> 00:54:43.070
+or default text view. We are using the text that we created.
+
+296
+00:54:43.320 --> 00:54:47.370
+Piyush Garg: Okay. And the last step is to add this
+
+297
+00:54:48.450 --> 00:54:53.860
+Piyush Garg: int0 0ur resources folder. Okay. So we'll add
+
+298
+00:54:55.440 --> 00:54:56.890
+Piyush Garg: resource, file.
+
+299
+00:54:58.280 --> 00:55:02.100
+Piyush Garg: or if it attributes or
+
+300
+00:55:03.510 --> 00:55:07.070
+Piyush Garg: good, I I declare it's time ago.
+
+301
+00:55:13.700 --> 00:55:14.440
+Piyush Garg: Okay.
+
+302
+00:55:26.520 --> 00:55:28.040
+Piyush Garg: which, when I
+
+303
+00:55:29.570 --> 00:55:33.020
+Piyush Garg: attribute or right
+
+304
+00:55:35.930 --> 00:55:38.410
+Piyush Garg: format, would be slow.
+
+305
+00:55:39.310 --> 00:55:43.810
+Piyush Garg: and it can take value from resources as well. So if it's
+
+306
+00:55:47.860 --> 00:55:48.590
+Piyush Garg: okay.
+
+307
+00:55:52.640 --> 00:55:55.360
+Piyush Garg: I'll have to pay this
+
+308
+00:55:55.500 --> 00:55:58.430
+Piyush Garg: so that we can visualize you like.
+
+309
+00:56:44.820 --> 00:56:48.060
+Piyush Garg: Okay, so this is where our price. Text view is now
+
+310
+00:56:48.140 --> 00:56:49.740
+Piyush Garg: okay. Can you see this?
+
+311
+00:56:52.440 --> 00:56:55.440
+Piyush Garg: All right? Now, if I want to set the price?
+
+312
+00:56:55.790 --> 00:56:56.720
+Piyush Garg: So are you.
+
+313
+00:56:57.110 --> 00:57:00.960
+Piyush Garg: We can go to the activity and
+
+314
+00:57:02.130 --> 00:57:10.910
+Piyush Garg: finding Dot price. Thanks to you. right there is. let's say, 200 points
+
+315
+00:57:13.330 --> 00:57:14.010
+Piyush Garg: cool.
+
+316
+00:57:16.060 --> 00:57:16.810
+Piyush Garg: Okay.
+
+317
+00:57:17.460 --> 00:57:19.640
+And if you run this code
+
+318
+00:57:20.240 --> 00:57:26.050
+Piyush Garg: you will see here that it comes with a dollar symbol dollar, 200.7 5.
+
+319
+00:58:47.340 --> 00:58:50.140
+Piyush Garg: So i'm giving the constructor to a view.
+
+320
+00:58:56.710 --> 00:59:01.750
+Piyush Garg: Yeah, you'll just have to give this virtual machine overload
+
+321
+00:59:01.840 --> 00:59:07.090
+Piyush Garg: because we are giving that structure to the custom view. Right?
+
+322
+00:59:21.750 --> 00:59:24.040
+Piyush Garg: Okay. So you can see
+
+323
+00:59:24.290 --> 00:59:27.940
+Piyush Garg: the text to you. Has the dollar symbol in it Right?
+
+324
+00:59:31.840 --> 00:59:37.010
+Piyush Garg: What? Not always do. We want to set the price programmatically.
+
+325
+00:59:37.100 --> 00:59:42.180
+Piyush Garg: We sometimes want to do in our layout file. We can add
+
+326
+00:59:42.290 --> 00:59:44.450
+Piyush Garg: something like fixed right.
+
+327
+00:59:46.150 --> 00:59:56.300
+Piyush Garg: Exchange whatever right we want to be able to do that with our custom views as well. So here, what we can do is add price
+
+328
+00:59:57.320 --> 00:59:59.370
+Piyush Garg: and give it some value.
+
+329
+01:00:04.560 --> 01:00:08.080
+Piyush Garg: Okay. But to show this value
+
+330
+01:00:08.130 --> 01:00:16.630
+Piyush Garg: from your Xml file you will have to edit the code and use these attribute sets instead. Okay.
+
+331
+01:00:17.280 --> 01:00:28.140
+Piyush Garg: And did you notice we added a style component to this layout as well. so that style competent uses. This defined style attribute
+
+332
+01:00:28.650 --> 01:00:30.030
+Piyush Garg: to set the layout.
+
+333
+01:00:31.550 --> 01:00:34.800
+Piyush Garg: so it's in it.
+
+334
+01:00:36.640 --> 01:00:40.840
+Piyush Garg: No contribute. So
+
+335
+01:00:41.960 --> 01:00:46.750
+Piyush Garg: click. if Attribute said, is not null.
+
+336
+01:00:46.860 --> 01:00:51.170
+Piyush Garg: then we get well. 5 3,
+
+337
+01:00:56.610 --> 01:00:57.970
+Piyush Garg: it's
+
+338
+01:00:59.150 --> 01:01:02.000
+Piyush Garg: context, not of you
+
+339
+01:01:02.310 --> 01:01:05.850
+Piyush Garg: styled attribute our toddler bill
+
+340
+01:01:06.360 --> 01:01:13.080
+Piyush Garg: alright, price next to you. So we get this price text view from our attributes, resources.
+
+341
+01:01:13.220 --> 01:01:16.850
+Piyush Garg: and action. The it will be able to value
+
+342
+01:01:17.010 --> 01:01:19.270
+Piyush Garg: int0 0ur text. Okay.
+
+343
+01:01:19.570 --> 01:01:21.380
+Piyush Garg: So this, then.
+
+344
+01:01:21.880 --> 01:01:24.280
+Piyush Garg: right?
+
+345
+01:01:28.810 --> 01:01:29.600
+Piyush Garg: It's it
+
+346
+01:01:33.330 --> 01:01:35.030
+Piyush Garg: the solar side
+
+347
+01:01:38.550 --> 01:01:39.740
+Piyush Garg: price.
+
+348
+01:01:40.400 --> 01:01:45.820
+Piyush Garg: This underscore price is nothing but this value
+
+349
+01:01:45.940 --> 01:01:48.890
+Piyush Garg: price text view underscore price.
+
+350
+01:01:48.900 --> 01:01:53.310
+Piyush Garg: Okay. it needs a default value to
+
+351
+01:02:04.300 --> 01:02:04.990
+Piyush Garg: right.
+
+352
+01:02:43.010 --> 01:02:43.720
+do we?
+
+353
+01:02:56.560 --> 01:02:57.700
+Piyush Garg: So
+
+354
+01:03:06.730 --> 01:03:11.050
+yeah, once you use the type that you need to recycle it.
+
+355
+01:03:16.560 --> 01:03:27.340
+Piyush Garg: So by using this particular piece of code, you will be able to patch in the attribute value price into your text view here.
+
+356
+01:03:27.600 --> 01:03:28.340
+Piyush Garg: Okay.
+
+357
+01:03:29.360 --> 01:03:34.080
+Piyush Garg: So using this price value price text view price into
+
+358
+01:03:34.220 --> 01:03:36.830
+Piyush Garg: this variable price. Okay.
+
+359
+01:03:37.570 --> 01:03:39.440
+Piyush Garg: it's one discord now.
+
+360
+01:03:40.890 --> 01:03:44.040
+Piyush Garg: actually enough to to me this out.
+
+361
+01:03:48.890 --> 01:03:49.850
+Piyush Garg: So you
+
+362
+01:04:23.760 --> 01:04:25.610
+Piyush Garg: to the default. But
+
+363
+01:05:28.020 --> 01:05:28.640
+okay.
+
+364
+01:05:34.800 --> 01:05:35.420
+right.
+
+365
+01:05:50.660 --> 01:05:52.160
+Piyush Garg: So this
+
+366
+01:06:20.130 --> 01:06:24.050
+Piyush Garg: okay. So this will help you visualize as well as
+
+367
+01:06:24.070 --> 01:06:27.030
+show it on your layout.
+
+368
+01:06:27.080 --> 01:06:30.180
+Piyush Garg: using the attribute to the click. Okay.
+
+369
+01:06:33.920 --> 01:06:35.310
+Piyush Garg: why is that?
+
+370
+01:06:38.890 --> 01:06:52.050
+Piyush Garg: And like different currencies across the world, and different number of patterns have different ways of showing 100,000 right like in India you have. If you have 100,000, there will be spacing of
+
+371
+01:06:52.050 --> 01:07:02.690
+Piyush Garg: 3 digits, then comma and 2 digits, and then comma, but in us and Canada you'll have 3 digits, 3 digits, and 3 digits, so if I add one more
+
+372
+01:07:03.280 --> 01:07:05.020
+Piyush Garg: or 2 more digits here.
+
+373
+01:07:14.330 --> 01:07:19.090
+Piyush Garg: so it uses the default local or the default
+
+374
+01:07:20.910 --> 01:07:22.840
+Piyush Garg: in Egypt
+
+375
+01:07:23.010 --> 01:07:25.860
+Piyush Garg: to set your textbook right.
+
+376
+01:07:26.180 --> 01:07:26.880
+Piyush Garg: I need to
+
+377
+01:07:31.490 --> 01:07:33.720
+Piyush Garg: Do you guys have any questions about this?
+
+378
+01:07:41.180 --> 01:07:48.790
+Piyush Garg: Do you understand how to create a custom view? What a custom takes to you in this case?
+
+379
+01:07:49.920 --> 01:07:50.760
+Piyush Garg: Yes.
+
+380
+01:07:52.700 --> 01:07:59.670
+Vinny Vinu: Professor, Can you explain the permission to like, select the default by doing this
+
+381
+01:08:00.230 --> 01:08:01.520
+Piyush Garg: like this value?
+
+382
+01:08:03.410 --> 01:08:04.270
+Piyush Garg: Okay.
+
+383
+01:08:04.320 --> 01:08:06.670
+Vinny Vinu: like you have given a function right?
+
+384
+01:08:07.740 --> 01:08:10.140
+Piyush Garg: This is a in it block.
+
+385
+01:08:10.600 --> 01:08:24.260
+Piyush Garg: So whenever you run this class, the first blocks that runs is in it. Okay. So in in it we are checking. If the attribute set that's coming into the construct through the constructor is not null.
+
+386
+01:08:24.800 --> 01:08:27.630
+Piyush Garg: If it is not no, then we, using the a
+
+387
+01:08:27.760 --> 01:08:29.779
+attribute set.
+
+388
+01:08:30.020 --> 01:08:36.399
+Piyush Garg: we obtain the styled attributes from your attribute. Xml file.
+
+389
+01:08:36.810 --> 01:08:37.620
+Piyush Garg: Okay.
+
+390
+01:08:39.420 --> 01:08:40.779
+Piyush Garg: And after that
+
+391
+01:08:41.010 --> 01:08:46.810
+Piyush Garg: you use that typed rate to get each element of that
+
+392
+01:08:46.939 --> 01:08:50.000
+Piyush Garg: style of built into your port.
+
+393
+01:08:50.930 --> 01:08:57.960
+Piyush Garg: In our case, we only have one attribute. That is the price and soft type floor, so we can
+
+394
+01:08:58.410 --> 01:09:01.460
+Piyush Garg: directly patch it into the price variable
+
+395
+01:09:02.910 --> 01:09:04.490
+Vinny Vinu: next up.
+
+396
+01:09:04.729 --> 01:09:05.970
+Vinny Vinu: Okay, Thank you.
+
+397
+01:09:06.470 --> 01:09:07.240
+Piyush Garg: Okay.
+
+398
+01:09:10.600 --> 01:09:11.649
+Vinny Vinu: Thank you.
+
+399
+01:09:11.779 --> 01:09:13.040
+Piyush Garg: No problem.
+
+400
+01:09:16.500 --> 01:09:23.580
+Piyush Garg: So I wanted to see if this it currency.
+
+401
+01:09:59.760 --> 01:10:04.290
+Piyush Garg: not sure if English uses 1 2 3 2 2,
+
+402
+01:10:06.840 --> 01:10:08.930
+Piyush Garg: But we can definitely see
+
+403
+01:10:23.180 --> 01:10:24.210
+Piyush Garg: screen
+
+404
+01:10:52.530 --> 01:11:01.870
+Piyush Garg: symbols, is not? It's not able to get the pound symbol here. That's why you get to be your box here. But see, change the
+
+405
+01:11:01.960 --> 01:11:05.570
+Piyush Garg: fall back right. If you do.
+
+406
+01:11:06.710 --> 01:11:07.650
+Piyush Garg: maybe
+
+407
+01:11:08.160 --> 01:11:11.450
+Piyush Garg: Chinese it will be able to hit it. But sure, let's see
+
+408
+01:11:25.260 --> 01:11:27.510
+Piyush Garg: Right? Okay.
+
+409
+01:11:32.750 --> 01:11:40.470
+Piyush Garg: So you'll have to just download those different at different locals to show this correctly. But you can see the symbol is changing here right
+
+410
+01:11:41.290 --> 01:11:43.100
+Piyush Garg: just by changing that. Look at
+
+411
+01:11:47.350 --> 01:11:53.900
+Piyush Garg: Okay. So the next step we'll do here is to create a layout.
+
+412
+01:11:54.240 --> 01:11:56.160
+Piyush Garg: a custom layout. Okay.
+
+413
+01:12:04.970 --> 01:12:08.080
+Piyush Garg: it's make for the costs.
+
+414
+01:12:14.170 --> 01:12:14.930
+Piyush Garg: Yeah.
+
+415
+01:12:19.550 --> 01:12:23.680
+Piyush Garg: we can have one text view and one edit text
+
+416
+01:12:24.610 --> 01:12:25.960
+Piyush Garg: in that you
+
+417
+01:12:28.180 --> 01:12:30.300
+Piyush Garg: okay for me.
+
+418
+01:12:31.450 --> 01:12:33.230
+Piyush Garg: Muted. Yeah.
+
+419
+01:12:36.020 --> 01:12:45.890
+Piyush Garg: Okay. So this form feeding layout will extend a linear layout for us because we want to create a layout
+
+420
+01:12:47.650 --> 01:12:49.950
+Piyush Garg: that's interesting.
+
+421
+01:12:53.070 --> 01:12:56.850
+Piyush Garg: and that needs context attributes, set
+
+422
+01:12:57.670 --> 01:13:00.530
+Piyush Garg: style, attribute and style resource.
+
+423
+01:13:01.070 --> 01:13:04.640
+Piyush Garg: Okay. So then.
+
+424
+01:13:22.610 --> 01:13:23.870
+Piyush Garg: one thing
+
+425
+01:13:28.040 --> 01:13:29.440
+Piyush Garg: like a good set.
+
+426
+01:13:54.380 --> 01:13:55.330
+Piyush Garg: So you.
+
+427
+01:14:17.760 --> 01:14:21.800
+Piyush Garg: this will be this.
+
+428
+01:14:26.610 --> 01:14:28.750
+Piyush Garg: you know, before 2 0.
+
+429
+01:14:39.020 --> 01:14:39.910
+We save it
+
+430
+01:14:41.560 --> 01:14:42.810
+Piyush Garg: all right.
+
+431
+01:14:58.040 --> 01:14:58.750
+Piyush Garg: Okay.
+
+432
+01:14:58.860 --> 01:15:01.850
+Piyush Garg: So just like we did for the text to you.
+
+433
+01:15:02.850 --> 01:15:05.830
+Piyush Garg: we actually lay out here. Okay.
+
+434
+01:15:07.560 --> 01:15:11.330
+Piyush Garg: let's create a layout for this.
+
+435
+01:15:23.710 --> 01:15:24.790
+Yeah.
+
+436
+01:15:25.680 --> 01:15:26.870
+Piyush Garg: yeah.
+
+437
+01:15:33.890 --> 01:15:39.130
+Piyush Garg: I have one image view and 2 text. Using this.
+
+438
+01:16:51.080 --> 01:16:53.180
+Piyush Garg: there will be a time for next few.
+
+439
+01:16:53.610 --> 01:16:55.300
+Piyush Garg: a bit of
+
+440
+01:17:16.630 --> 01:17:17.620
+Piyush Garg: which you
+
+441
+01:20:12.560 --> 01:20:18.120
+Piyush Garg: Okay. So I have this view which has one image view and 2 text views. Okay.
+
+442
+01:20:21.620 --> 01:20:24.800
+Piyush Garg: and use this as our
+
+443
+01:20:25.970 --> 01:20:31.410
+Piyush Garg: so to do that in our class 5
+
+444
+01:20:32.100 --> 01:20:34.840
+Piyush Garg: we'll have to send the in a clock
+
+445
+01:20:36.480 --> 01:20:37.740
+Piyush Garg: you have to do
+
+446
+01:20:37.900 --> 01:20:39.990
+may out in place it
+
+447
+01:20:52.390 --> 01:20:55.270
+Piyush Garg: our dot layout.
+
+448
+01:21:02.230 --> 01:21:03.200
+Piyush Garg: you know.
+
+449
+01:21:04.460 --> 01:21:05.430
+Piyush Garg: Yeah.
+
+450
+01:21:06.730 --> 01:21:08.980
+Piyush Garg: the dealer is
+
+451
+01:21:10.210 --> 01:21:11.070
+Piyush Garg: nothing.
+
+452
+01:21:14.750 --> 01:21:17.060
+Piyush Garg: Isn't this this itself
+
+453
+01:21:17.120 --> 01:21:19.020
+that's the end. True.
+
+454
+01:21:22.590 --> 01:21:26.900
+Piyush Garg: Okay. So if you do this, your layout would be visible.
+
+455
+01:21:27.520 --> 01:21:33.360
+Piyush Garg: Let's take it one step at a time. So let's just do this and add this layout to
+
+456
+01:21:36.130 --> 01:21:38.690
+Piyush Garg: We won't. Be able to see. But of course.
+
+457
+01:21:39.170 --> 01:21:40.010
+Piyush Garg: right.
+
+458
+01:21:50.570 --> 01:21:51.660
+Piyush Garg: Thank you.
+
+459
+01:22:09.180 --> 01:22:10.260
+Piyush Garg: Okay.
+
+460
+01:22:25.720 --> 01:22:31.340
+Piyush Garg: So then your last name activity. Let's try and get plates this new custom, way out.
+
+461
+01:23:34.140 --> 01:23:36.640
+Piyush Garg: Good. So
+
+462
+01:23:40.850 --> 01:23:42.470
+Piyush Garg: let's see it on this board.
+
+463
+01:23:46.300 --> 01:23:47.210
+Piyush Garg: Sure.
+
+464
+01:24:08.240 --> 01:24:10.860
+Piyush Garg: you can see the custom layout here. Okay.
+
+465
+01:24:14.610 --> 01:24:25.230
+Piyush Garg: but we want to patch in all the fields as well. So what we can do is the the same as what we did for the text view. But we'll have to do for each view. Now. Okay.
+
+466
+01:24:25.310 --> 01:24:26.450
+Piyush Garg: So
+
+467
+01:24:36.530 --> 01:24:40.080
+Piyush Garg: we need to be able to. Okay.
+
+468
+01:24:43.690 --> 01:24:44.780
+Piyush Garg: Okay, so
+
+469
+01:24:46.090 --> 01:24:46.740
+Piyush Garg: absolutely
+
+470
+01:24:49.560 --> 01:24:51.190
+Piyush Garg: that's
+
+471
+01:25:10.100 --> 01:25:10.760
+Piyush Garg: you
+
+472
+01:25:17.510 --> 01:25:18.410
+with you.
+
+473
+01:25:25.590 --> 01:25:26.290
+Piyush Garg: Alright.
+
+474
+01:25:39.950 --> 01:25:40.840
+Piyush Garg: so
+
+475
+01:25:42.040 --> 01:25:44.580
+Piyush Garg: image view is
+
+476
+01:25:47.800 --> 01:25:50.480
+Piyush Garg: Id
+
+477
+01:25:51.640 --> 01:25:54.500
+Piyush Garg: I will you this fine
+
+478
+01:25:54.840 --> 01:25:58.820
+Piyush Garg: you by the right. No
+
+479
+01:26:02.830 --> 01:26:04.520
+Piyush Garg: description of you.
+
+480
+01:26:11.220 --> 01:26:11.950
+Piyush Garg: Okay.
+
+481
+01:26:13.150 --> 01:26:18.180
+Piyush Garg: And up to this we'll populate the values into these.
+
+482
+01:26:20.200 --> 01:26:23.660
+Piyush Garg: So let's have 3 variables
+
+483
+01:26:24.910 --> 01:26:26.600
+Piyush Garg: image.
+
+484
+01:26:27.150 --> 01:26:28.990
+Piyush Garg: Well, I
+
+485
+01:26:45.040 --> 01:26:46.290
+Piyush Garg: Oh, something
+
+486
+01:26:54.220 --> 01:26:55.370
+that's
+
+487
+01:27:12.400 --> 01:27:14.450
+Piyush Garg: so. If there is a
+
+488
+01:27:16.440 --> 01:27:20.040
+Piyush Garg: we can calculate the emails and do this.
+
+489
+01:27:23.150 --> 01:27:24.320
+it.
+
+490
+01:27:24.870 --> 01:27:26.880
+Piyush Garg: you know it.
+
+491
+01:27:31.780 --> 01:27:37.700
+Piyush Garg: So whatever image I pass, or whatever whatever resource Id that I pass to the image.
+
+492
+01:27:37.900 --> 01:27:46.380
+Piyush Garg: we'll send that value to this image, and if the value is not null. Then we'll also set the image view
+
+493
+01:27:46.440 --> 01:27:48.870
+Piyush Garg: with that driver. P.
+
+494
+01:27:49.660 --> 01:27:54.360
+Piyush Garg: For the other 2. These are text to you, and would be same as the price text. You.
+
+495
+01:28:18.430 --> 01:28:19.270
+Piyush Garg: Okay.
+
+496
+01:28:20.540 --> 01:28:21.440
+Piyush Garg: Thanks.
+
+497
+01:28:22.350 --> 01:28:22.940
+Yeah.
+
+498
+01:28:23.540 --> 01:28:24.180
+Piyush Garg: Bye.
+
+499
+01:28:26.130 --> 01:28:26.900
+Piyush Garg: Okay.
+
+500
+01:28:28.450 --> 01:28:30.100
+Piyush Garg: Okay. So it's true.
+
+501
+01:28:32.500 --> 01:28:35.720
+Piyush Garg: Again, the
+
+502
+01:28:36.900 --> 01:28:40.130
+Piyush Garg: in the description of I screen
+
+503
+01:28:40.400 --> 01:28:41.810
+Piyush Garg: it. It's this.
+
+504
+01:28:43.080 --> 01:28:45.480
+Piyush Garg: So well, you
+
+505
+01:28:51.170 --> 01:28:52.330
+Piyush Garg: we have to
+
+506
+01:28:55.120 --> 01:28:55.830
+Piyush Garg: this.
+
+507
+01:29:02.080 --> 01:29:05.690
+Piyush Garg: So we just need to patch in the values from the attribute
+
+508
+01:29:05.810 --> 01:29:07.820
+Piyush Garg: set into these
+
+509
+01:29:07.860 --> 01:29:09.320
+video books. Now.
+
+510
+01:29:09.730 --> 01:29:15.040
+Piyush Garg: so to do that we'll go back t0 0ur it.
+
+511
+01:29:24.820 --> 01:29:25.570
+Piyush Garg: Yeah.
+
+512
+01:29:35.150 --> 01:29:37.940
+Piyush Garg: for that is reference.
+
+513
+01:29:50.520 --> 01:29:54.970
+Piyush Garg: Okay. the famous on straight.
+
+514
+01:29:58.780 --> 01:29:59.760
+Piyush Garg: Okay.
+
+515
+01:30:07.930 --> 01:30:08.670
+Piyush Garg: It's a.
+
+516
+01:30:21.110 --> 01:30:26.030
+Piyush Garg: Because
+
+517
+01:30:42.350 --> 01:30:44.160
+Piyush Garg: Oh, I I
+
+518
+01:31:25.510 --> 01:31:27.860
+Piyush Garg: Okay. Yeah, okay.
+
+519
+01:31:36.020 --> 01:31:40.130
+Piyush Garg: We'll have to set default values for these. So
+
+520
+01:31:47.140 --> 01:31:48.140
+Piyush Garg: right.
+
+521
+01:32:24.880 --> 01:32:27.320
+Piyush Garg: this set of the value for title
+
+522
+01:32:29.570 --> 01:32:32.400
+Piyush Garg: description.
+
+523
+01:32:57.680 --> 01:32:58.440
+Piyush Garg: Okay.
+
+524
+01:33:15.190 --> 01:33:18.730
+right? And the
+
+525
+01:33:18.900 --> 01:33:19.750
+Piyush Garg: so
+
+526
+01:33:27.570 --> 01:33:30.010
+Piyush Garg: it's our sighting here on top.
+
+527
+01:33:34.920 --> 01:33:37.010
+Piyush Garg: Okay. image
+
+528
+01:33:37.140 --> 01:33:41.200
+Piyush Garg: and default. Let's keep it to minus one, so that we can check If
+
+529
+01:33:42.400 --> 01:33:45.080
+Piyush Garg: image. of course.
+
+530
+01:33:45.520 --> 01:33:48.490
+Piyush Garg: is greater than 0.
+
+531
+01:33:49.540 --> 01:33:50.230
+Piyush Garg: There you
+
+532
+01:33:54.790 --> 01:33:57.100
+Piyush Garg: zoom. You can see
+
+533
+01:34:01.040 --> 01:34:01.620
+Piyush Garg: the
+
+534
+01:34:01.640 --> 01:34:02.560
+it's.
+
+535
+01:34:04.170 --> 01:34:05.210
+Piyush Garg: It's so
+
+536
+01:34:13.340 --> 01:34:17.490
+Piyush Garg: okay. So this sets up our entire Leo.
+
+537
+01:34:17.870 --> 01:34:22.020
+Piyush Garg: and again going to the Xml file. We can, I,
+
+538
+01:34:48.610 --> 01:34:49.810
+Piyush Garg: and use this
+
+539
+01:35:15.570 --> 01:35:16.690
+Piyush Garg: before.
+
+540
+01:35:34.370 --> 01:35:35.030
+Piyush Garg: Yes.
+
+541
+01:36:10.210 --> 01:36:13.660
+Piyush Garg: Okay. So it's loading the image correctly.
+
+542
+01:36:17.130 --> 01:36:17.880
+Piyush Garg: It's too
+
+543
+01:36:19.460 --> 01:36:21.580
+Piyush Garg: resources
+
+544
+01:36:26.330 --> 01:36:27.250
+Piyush Garg: fixed.
+
+545
+01:37:07.290 --> 01:37:07.980
+Piyush Garg: Okay.
+
+546
+01:37:54.020 --> 01:37:55.180
+Piyush Garg: Okay.
+
+547
+01:38:40.120 --> 01:38:42.450
+Piyush Garg: that's the value description.
+
+548
+01:39:58.990 --> 01:40:00.550
+Piyush Garg: I think that should be it.
+
+549
+01:40:41.620 --> 01:40:47.490
+Piyush Garg: So. Maybe it's not able to get this resource file directly. Let's move this
+
+550
+01:40:47.750 --> 01:40:50.800
+Piyush Garg: these 2 int0 0ur string files.
+
+551
+01:40:51.400 --> 01:40:54.400
+Piyush Garg: Yes. So I
+
+552
+01:40:57.910 --> 01:41:00.400
+Piyush Garg: It is this.
+
+553
+01:41:10.070 --> 01:41:10.630
+Yeah.
+
+554
+01:41:16.300 --> 01:41:16.990
+Piyush Garg: it's.
+
+555
+01:42:56.350 --> 01:43:00.110
+Piyush Garg: Yes, in any case this is how you would use it.
+
+556
+01:43:00.560 --> 01:43:01.280
+Piyush Garg: Okay.
+
+557
+01:43:03.860 --> 01:43:08.430
+Piyush Garg: let's just quickly add binding instead of using the layout and creators.
+
+558
+01:43:09.330 --> 01:43:12.740
+Piyush Garg: So i'll have to by way.
+
+559
+01:43:19.890 --> 01:43:21.840
+Piyush Garg: find it of time.
+
+560
+01:43:23.780 --> 01:43:24.690
+you know.
+
+561
+01:43:25.190 --> 01:43:26.740
+Piyush Garg: Okay, now.
+
+562
+01:43:30.670 --> 01:43:31.530
+Piyush Garg: So
+
+563
+01:43:39.960 --> 01:43:40.890
+I need
+
+564
+01:43:51.890 --> 01:43:52.590
+Piyush Garg: right.
+
+565
+01:44:21.690 --> 01:44:26.960
+Piyush Garg: And the binding is not working now. Great? Okay?
+
+566
+01:44:42.490 --> 01:44:43.930
+Piyush Garg: And yes.
+
+567
+01:44:54.240 --> 01:44:54.820
+Piyush Garg: bye.
+
+568
+01:45:15.900 --> 01:45:18.210
+Piyush Garg: we'll just take 5 more minutes. Okay.
+
+569
+01:45:39.400 --> 01:45:40.660
+Piyush Garg: Okay.
+
+570
+01:46:03.520 --> 01:46:04.710
+Piyush Garg: one takes
+
+571
+01:46:13.430 --> 01:46:14.810
+Piyush Garg: It's it's
+
+572
+01:46:17.300 --> 01:46:20.050
+Piyush Garg: either.
+
+573
+01:46:45.130 --> 01:46:50.730
+Piyush Garg: So we are now using binding instead of the layouts and find view by
+
+574
+01:46:52.200 --> 01:46:53.700
+Piyush Garg: it, is the issue.
+
+575
+01:47:06.100 --> 01:47:07.040
+Piyush Garg: Yeah, okay.
+
+576
+01:47:07.690 --> 01:47:11.770
+Piyush Garg: that's for the binding, which we did not do into it here.
+
+577
+01:47:41.140 --> 01:47:41.840
+Piyush Garg: Okay.
+
+578
+01:47:42.150 --> 01:47:52.810
+Piyush Garg: So that's it. That's how to create custom layouts. Okay, just these 2 fields are not populating and check. Why, that is, and let you know in the next class. Okay.
+
+579
+01:47:55.540 --> 01:47:57.040
+Piyush Garg: Do you have any questions.
+
+580
+01:48:14.800 --> 01:48:16.920
+Piyush Garg: Charlie? You were saying something about later in.
+
+581
+01:48:23.890 --> 01:48:24.570
+Piyush Garg: Hello.
+
+582
+01:48:29.200 --> 01:48:29.950
+Piyush Garg: Okay.
+
+583
+01:48:30.260 --> 01:48:37.810
+Piyush Garg: the in that case I'm going to stop recording the lecture, and i'll see you on. Is it first or second March?
+
+584
+01:48:41.000 --> 01:48:43.430
+Piyush Garg: 0 20, seventh, February. Okay.
+
+585
+01:48:43.910 --> 01:48:46.600
+Piyush Garg: I'll see you all on 20 seventh February. Okay.
+
+586
+01:48:48.300 --> 01:48:49.740
+Mithul Koshy: Okay. Thank you for
+
+587
+01:48:50.060 --> 01:48:51.500
+Vinny Vinu: Thank you.
+
