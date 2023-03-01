@@ -3,6 +3,11 @@
 
 <body>
   <div class="container mt-5">
+    <% if(message){ %>
+      <div class="alert alert-success alert-dismissible" role="alert" data-auto-dismiss="5000">
+        <%= message %>
+      </div>
+    <% } %>
   <h1 class="col-3 display-2">Login</h1>
     <div class="row">
       <div class="col-sm-8">

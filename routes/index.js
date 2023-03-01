@@ -6,7 +6,7 @@
 =================================================== */
 const express = require('express');
 const router = express.Router();
-const authCtrl = require('../controllers/authController');
+// const authCtrl = require('../controllers/authController');
 const myTitle = "Johnny Z. Song\'s Portfolio Website";
 let name = "", email="", message="";
 
@@ -46,7 +46,6 @@ router.get('/contact', function (req, res, next) {
   res.redirect('/#contact');
 });
 
-
 /* POST contacts */
 router.post('/contact', function (req, res, next) {
   name = req.body.name;
@@ -58,19 +57,19 @@ router.post('/contact', function (req, res, next) {
 // #endregion
 
 /* Contact List*/
-router.route("/contactlist")
-      .get((req,res)=>{
-        if(req.isAuthenticated) res.render("/contactlist");
-        res.render('../views/auth/login');
-      });
+// router.route("/contactlist")
+//       .get((req,res)=>{
+//         if(req.isAuthenticated) res.render("/contactlist");
+//         res.render('../views/auth/login');
+//       });
 
 // #region Authentication
-router.route('/register')
-      .get(authCtrl.displayRegistration)
-      .post(authCtrl.handleRegistration);
+// router.route('/register')
+//       .get(authCtrl.displayRegistration)
+//       .post(authCtrl.handleRegistration);
 
-router.route('/login')
-      .get(authCtrl.displayLogin)
-      .post(authCtrl.handleLogin);
+// router.route('/login')
+//       .get(authCtrl.displayLogin)
+//       .post(authCtrl.handleLogin);
 // #endregion
 module.exports = router;

@@ -7,7 +7,13 @@ February 21, 2023
 </head>
 
 <body>
-  <h2 id="contactlist-header">List of Current Customers</h2>
+  <h2 id="contactlist-header">
+    <span>List of Current Customers</span>
+    <form action="/logout" method="post">
+      <button class="btn btn-dark btn-lg" name="logout">Log Out</button>
+    </form>
+  </h2>
+
   <section id="listView">
     <table id="myTable">
       <tr>
@@ -15,7 +21,14 @@ February 21, 2023
         <th>Phone Number</th>
         <th>Email</th>
       </tr>
+      <% for(let counter = 0; counter<data.length; counter++){ %>
       <tr>
+        <td><%=data[counter].name%></td>
+        <td><%=data[counter].phone%></td>
+        <td><%=data[counter].email%></td>
+      </tr>
+      <%}%>
+      <!-- <tr>
         <td>Berglunds Snabbkop</td>
         <td>(451)620-5508</td>
         <td>bs@outlook.com</td>
@@ -69,7 +82,7 @@ February 21, 2023
         <td>GTA Clean</td>
         <td>(650)674-2164</td>
         <td>gtac@gmail.ca</td>
-      </tr>
+      </tr> -->
     </table>
   </section>
   <section id="updateView">
