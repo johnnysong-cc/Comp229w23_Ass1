@@ -1925,6 +1925,12 @@ table.hover tr:nth-of-type(even):hover {
 .copyright a:hover {
   text-decoration: underline;
 }
+#updateView{
+  padding: 2rem;
+}
+#updateView label{
+  font-size: large;
+}
 @media (min-width: 640px) {
   .footer {
     padding: 3em 4em;
@@ -2103,6 +2109,9 @@ label.auth{
 }
 .form-error.is-visible {
   display: block;
+}
+table th{
+  text-align: center;
 }
 #redirected-message{
   margin-top: 2rem;

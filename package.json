@@ -15,7 +15,7 @@
     "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.1",
     "connect-flash": "^0.1.1",
-    "cookie-parser": "~1.4.4",
+    "connect-mongo": "^4.6.0",
     "cors": "2.8.5",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",

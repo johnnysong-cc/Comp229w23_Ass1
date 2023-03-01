@@ -7,7 +7,16 @@
 
 // #region Dependencies
 require("dotenv").config();
-const express = require('express'), session = require('express-session'), sessionConf = { secret: process.env.SECRET, resave: false, saveUninitialized: false };
+const express = require('express'), session = require('express-session'), mongoSessionStore = require('connect-mongo');
+const sessionConf = {
+  secret: process.env.SECRET,
+  resave: false,
+  saveUninitialized: false,
+  store: mongoSessionStore.create({
+    mongoUrl: process.env.CONNSTRING,
+    ttl: 2 * 24 * 60 * 60 // default ttl is 1 day
+  })
+};
 const passport = require('passport'), passportLocalMongoose = require("passport-local-mongoose");
 const mongoose = require('mongoose'), findOrCreate = require("mongoose-findorcreate");
 const path = require('path'), flash = require("connect-flash");
@@ -77,7 +86,6 @@ const Contact = mongoose.model("Contact", contactSchema);
 
 // #region router
 app.use('/', indexRouter);
-
 
 app.route('/register')
   .get((req, res, next) => {
@@ -203,20 +211,93 @@ app.route('/login')
 
 app.route("/contactlist")
   .get((req, res) => {
-    if(req.isAuthenticated()) {
+    if (req.isAuthenticated()) {
       console.log(req.isAuthenticated());
-      Contact.find((err,contactlist)=>{
-        if(err) console.log(err);
-        else{
-          console.log("Try to access the first line of data");
-          console.log(`${contactlist[0].name}\n${contactlist[0].phone}\n${contactlist[0].email}`);
+      Contact.find((err, contactlist) => {
+        if (err) console.log(err);
+        else {
+          //#region debug
+          //console.log("Try to access the first line of data");
+          //console.log(`${contactlist[0].name}\n${contactlist[0].phone}\n${contactlist[0].email}`);
+          //#endregion
         }
-        res.render("contactlist",{data:contactlist});
+        res.render("contactlist", { data: contactlist, editLoad: {} });
       });
     } else {
       res.render('auth/login', { message: "" });
     }
   });
+
+app.get("/contactlist/delete/:id", (req, res, next) => {
+  // console.log(req.params.id);
+  Contact.deleteOne({ _id: req.params.id }, (err) => {
+    if (err) {
+      console.error(err);
+      res.send(err);
+    } else {
+      res.redirect("/contactlist");
+    }
+  });
+});
+
+app.route("/contactlist/edit/:id")
+  .get(async (req, res, next) => {
+    let contacts; let editItem;
+    try {
+      contacts = await Contact.find();
+    } catch (err) {
+      console.error(err.name);
+    }
+    try {
+      editItem = await Contact.findById(req.params.id);
+    } catch (err) {
+      console.error(err.name);
+    }
+    //#region debug
+    // console.log(contactlist);
+    // console.log(editItem);
+    //#endregion
+    res.render("contactlist", { data: contacts, editLoad: editItem })
+  });
+
+app.post("/contactlist/update", (req, res, next) => {
+  //#region debug
+  console.log(`user clicked Update.`);
+  console.log(req.body.nameinput);
+  console.log(req.body.phoneinput);
+  console.log(req.body.emailinput);
+  console.log(req.body.button);
+  //#endregion
+
+  if (req.body.button) {
+    console.log("updating...")
+    Contact.findOrCreate(
+      { _id: mongoose.Types.ObjectId(req.body.button) },
+      {
+        "name": req.body.nameinput,
+        "phone": req.body.phoneinput,
+        "email": req.body.emailinput
+      }, { upsert: true }, (err, result) => {
+        if (err) console.error(err);
+        else console.log(result);
+      })
+  } else {
+    console.log("find or create...")
+    Contact.findOrCreate(
+      { _id: mongoose.Types.ObjectId() },
+      {
+        "name": req.body.nameinput,
+        "phone": req.body.phoneinput,
+        "email": req.body.emailinput
+      }, { upsert: true }, (err, result) => {
+        if (err) console.error(err);
+        else console.log(result);
+      })
+  }
+
+
+  res.redirect("/contactlist")
+});
 
 app.route("/logout")
   .post((req, res) => {

@@ -9,7 +9,7 @@ February 21, 2023
 <body>
   <h2 id="contactlist-header">
     <span>List of Current Customers</span>
-    <form action="/logout" method="post">
+    <form style="display: inline-block;" action="/logout" method="post">
       <button class="btn btn-dark btn-lg" name="logout">Log Out</button>
     </form>
   </h2>
@@ -20,79 +20,40 @@ February 21, 2023
         <th id="namefield" onclick="sortTable()">Name</th>
         <th>Phone Number</th>
         <th>Email</th>
+        <th></th>
+        <th></th>
       </tr>
       <% for(let counter = 0; counter<data.length; counter++){ %>
       <tr>
         <td><%=data[counter].name%></td>
         <td><%=data[counter].phone%></td>
         <td><%=data[counter].email%></td>
+        <td>
+          <!-- using relative url here will cause the url getting appended to one another, which causes 404 -->
+          <a href="/contactlist/edit/<%= data[counter]._id %>" class="btn btn-success" role="button">
+            <i class="far fa-pen-to-square">Edit</i>
+          </a>
+        </td>
+        <td>
+          <a href="/contactlist/delete/<%= data[counter]._id %>" class="btn btn-danger" role="button">
+            <i class="far fa-trash-can">Delete</i>
+          </a>
+        </td>
       </tr>
       <%}%>
-      <!-- <tr>
-        <td>Berglunds Snabbkop</td>
-        <td>(451)620-5508</td>
-        <td>bs@outlook.com</td>
-      </tr>
-      <tr>
-        <td>Erling Haaland</td>
-        <td>(558)371-9893</td>
-        <td>eh@outlook.com</td>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>(584)781-3586</td>
-        <td>af@outlook.com</td>
-      </tr>
-      <tr>
-        <td>Koniglich Essen</td>
-        <td>(528)561-5236</td>
-        <td>ke@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Magazzini Alimentari Riuniti</td>
-        <td>(754)542-6757</td>
-        <td>mar@softbank.co.jp</td>
-      </tr>
-      <tr>
-        <td>Paris specialites</td>
-        <td>(758)644-8674</td>
-        <td>ps@ubi.com</td>
-      </tr>
-      <tr>
-        <td>Island Trading</td>
-        <td>(304)473-2379</td>
-        <td>it@londoncity.co.uk</td>
-      </tr>
-      <tr>
-        <td>Laughing Bacchus Winecellars</td>
-        <td>(740)697-1423</td>
-        <td>lbw@gmail.ca</td>
-      </tr>
-      <tr>
-        <td>Zealot Prime</td>
-        <td>(572)235-2569</td>
-        <td>zp@gmail.us</td>
-      </tr>
-      <tr>
-        <td>Kylian Mbappe</td>
-        <td>(536)822-9896</td>
-        <td>km@gmail.fr</td>
-      </tr>
-      <tr>
-        <td>GTA Clean</td>
-        <td>(650)674-2164</td>
-        <td>gtac@gmail.ca</td>
-      </tr> -->
     </table>
   </section>
   <section id="updateView">
-    <form action="/contactlist" method="psot">
+    <form action="/contactlist/update" method="post">
       <label for="nameinput">Name</label>
-      <input type="text" id="nameinput" name="nameinput" placeholder="Input the name you want to update">
-      
-      <button>Update</button>
-      <button>Delete</button>
-      <button>Cancel</button>
+      <input type="text" id="nameinput" name="nameinput" value="<%= editLoad.name %>">
+      <label for="phoneinput">Phone Number</label>
+      <input type="text" id="phoneinput" name="phoneinput" value="<%= editLoad.phone %>">
+      <label for="emailinput">Email</label>
+      <input type="text" id="emailinput" name="emailinput" value="<%= editLoad.email %>">
+
+      <button class="btn btn-success" name="button" value="<%=editLoad._id%>">Update</button>
+      <button class="btn btn-dark" name="button" value="cancel">Cancel</button>
     </form>
   </section>
   <%- include('partials/footer') %>
