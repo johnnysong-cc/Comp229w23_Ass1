@@ -40,4 +40,9 @@ January 30, 2023
   </div><!-- /.main wrap -->
     
   <%- include('partials/scripts') %>
+  <script>
+    if(scrollTo) {
+      window.location.hash = "<%- scrollTo %>";
+    }
+  </script>
 </body>

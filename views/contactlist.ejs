@@ -9,20 +9,22 @@ February 21, 2023
 <body>
   <h2 id="contactlist-header">
     <span>List of Current Customers</span>
-    <form style="display: inline-block;" action="/logout" method="post">
+    <form style="display: inline-block;float:right" action="/contactlist/logout" method="post">
       <button class="btn btn-dark btn-lg" name="logout">Log Out</button>
     </form>
   </h2>
 
   <section id="listView">
     <table id="myTable">
-      <tr>
-        <th id="namefield" onclick="sortTable()">Name</th>
-        <th>Phone Number</th>
-        <th>Email</th>
-        <th></th>
-        <th></th>
-      </tr>
+      <thead>
+        <tr>
+          <th id="namefield" onclick="sortTable()">Name</th>
+          <th>Phone Number</th>
+          <th>Email</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
       <% for(let counter = 0; counter<data.length; counter++){ %>
       <tr>
         <td><%=data[counter].name%></td>
@@ -53,10 +55,24 @@ February 21, 2023
       <input type="text" id="emailinput" name="emailinput" value="<%= editLoad.email %>">
 
       <button class="btn btn-success" name="button" value="<%=editLoad._id%>">Update</button>
-      <button class="btn btn-dark" name="button" value="cancel">Cancel</button>
+      <button id="cancelBtn" class="btn btn-dark">Cancel</button>
     </form>
   </section>
   <%- include('partials/footer') %>
   <%- include('partials/scripts') %>
+  <script>
+    const btn=document.querySelector("#cancelBtn");
+    const inputName=document.querySelector("#nameinput");
+    const inputPhone=document.querySelector("#phoneinput");
+    const inputEmail=document.querySelector("#emailinput");
+    const editLoad="<%= editLoad %>";
+    btn.addEventListener("click",e=>{
+      e.preventDefault();
+      inputName.value="";
+      inputPhone.value="";
+      inputEmail.value="";
+      editLoad=null;
+    });
+  </script>
 </body>
 </html>

@@ -385,7 +385,7 @@ hr {
   font-size: 0.875rem;
   border-radius: 0em;
 }
-.card .card-content:::after {
+.card .card-content::after {
   display: block;
   content: ' ';
   height: 0px;
@@ -684,23 +684,29 @@ table {
   box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.14);
   border-radius: 3px;
   font-size: 0.875rem;
+  width: 95%;
+  margin: 0 auto;
 }
 table thead,table tbody,table tfoot {
   border: 1px solid rgba(0, 0, 0, 0.14);
   background-color: #fff;
 }
-table caption {
-  font-weight: 400;
-  padding: 0.9375rem;
-}
+
 table thead,table tfoot {
   background: #fff;
   color: rgba(0, 0, 0, 0.87);
 }
+
 table thead th,table thead td,table tfoot th,table tfoot td {
   padding: 0.9375rem;
   font-size: 0.875rem;
   font-weight: 400;
+  text-align: center;
+}
+
+table caption {
+  font-weight: 400;
+  padding: 0.9375rem;
 }
 table tbody tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
@@ -723,6 +729,10 @@ table.hover tr:hover {
 }
 table.hover tr:nth-of-type(even):hover {
   background-color: #f9f9f9;
+}
+table td:last-child,
+table td:last-child~td{
+  width: 15px;
 }
 /* Callout */
 .callout {
@@ -1906,7 +1916,7 @@ table.hover tr:nth-of-type(even):hover {
 /* Footer
 =================================================== */
 .footer {
-  position: absolute; bottom: 0; width: 100%; left:0;
+  position: fixed; bottom: 0; width: 100%; left:0;
   background-color: #424242;
   color: #fafafa;
   padding: 3em 0;
@@ -1926,7 +1936,11 @@ table.hover tr:nth-of-type(even):hover {
   text-decoration: underline;
 }
 #updateView{
-  padding: 2rem;
+  width: 95%;
+  margin: 0 auto;
+}
+#updateView form{
+  padding: 5rem 0 10rem 0;
 }
 #updateView label{
   font-size: large;
@@ -2110,9 +2124,7 @@ label.auth{
 .form-error.is-visible {
   display: block;
 }
-table th{
-  text-align: center;
-}
+
 #redirected-message{
   margin-top: 2rem;
 }
